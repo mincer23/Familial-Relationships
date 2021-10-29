@@ -1,0 +1,228 @@
+[1mtrue.[0m
+
+?- [32m
+% c:/Users/kingm/OneDrive/Documents/Prolog/mehrwan.SWE1.pro compiled 0.00 sec, 0 clauses
+[0mparent(jane_smith, jack_leech).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- parent(mary_snyder, albert_harris).
+
+
+[1;31mfalse.[0m
+
+?- married(leonard_thompson, lisa_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- married(john_smith, layla_morris).
+
+
+[1mtrue [0m
+Unknown action:  (h for help)
+Action? 
+Unknown action:  (h for help)
+Action? 
+Unknown action:  (h for help)
+Action? 
+Unknown action:  (h for help)
+Action? .[1m.[0m
+
+?- married(tom_smith, lisa_smith).
+
+
+[1;31mfalse.[0m
+
+?- ancestor(freddy_smith, marcus_smith).
+
+
+[1mtrue [0m
+Unknown action:  (h for help)
+Action? .[1m.[0m
+
+?- ancestor(mary_jones, marcus_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- ancestor(leonard_thompson, marcus_smith).
+
+
+[1;31mfalse.[0m
+
+?- descendent(robert_harris, evelyn_harris).
+
+
+[1;31mfalse.[0m
+
+?- descendent(evelyn_harris, robert_harris).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- descendent(zach_smith, mary_jones).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- common_ancestor(leslie_smith, julie_smith, fred_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- common_ancestor(mary_louis, jane_louis, marsha_lang).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- common_ancestor(jane_louis, jane_louis, marsha_lang).
+
+
+[1;31mfalse.[0m
+
+?- blood(lilly_thompson,joe_thompson).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- blood(mark_smith, frederick_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- blood(jill_smith, marcus_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- blood(lisa_smith, mary_thompson).
+
+
+[1;31mfalse.[0m
+
+?- sibling(tom_smith, lisa_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- sibling(mary_louis, jane_louis).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- sibling(tom_lous, jane_louis).
+
+
+[1;31mfalse.[0m
+
+?- father(john_smith, leslie_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- father(marsha_lang, tom_louis).
+
+
+[1;31mfalse.[0m
+
+?- mother(constance_may, karen_harris).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- mother(leonard_harris, karen_harris).
+
+
+[1;31mfalse.[0m
+
+?- unlce(francis_smith, jill_smith).
+
+
+Correct to: "uncle(francis_smith,jill_smith)"? yyes
+[1mtrue [0m.[1m.[0m
+
+?- uncle(mark_smith, jill_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- uncle(fred_smith, jill_smith).
+
+
+[1;31mfalse.[0m
+
+?- aunt(jane_smith,catherine_thompson).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- aunt(lisa_smith,jack_leech).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- aunt(john_smith, jack_leech).
+
+
+[1;31mfalse.[0m
+
+?- cousin(zach_smith, timothy_leech).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- cousin(martha_smith, jill_smith).
+
+
+[1mtrue [0m
+Unknown action:  (h for help)
+Action? 
+Unknown action:  (h for help)
+Action? 
+Unknown action:  (h for help)
+Action? .[1m.[0m
+
+?- cousin(frederick_smith, tim_smith).
+
+
+[1mtrue [0m.[1m.[0m
+
+?- cousin(jonathan_louis, jane_louis).
+
+
+[1;31mfalse.[0m
+
+?- cousin_type(martha_smith, jill_smith, T, R).
+
+
+T = 1,
+R = 0 .[1m.[0m
+
+?- cousin_type(zach_smith,timothy_leech, T, R).
+
+
+T = 1,
+R = 0 .[1m.[0m
+
+?- cousin_type(martha_smith, lilly_thompson, T, R).
+
+
+T = 2,
+R = 0 .[1m.[0m
+
+?- cousin_type(julie_smith, tim_smith, T, R).
+
+
+T = R, R = 1 .[1m.[0m
+
+?- cousin_type(julie_smith, leslie_smith, T, R).
+
+
+[1;31mfalse.[0m
+
+?- noprotocol
+|    .
+
+
